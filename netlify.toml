@@ -1,8 +1,6 @@
-base = "web-portfolio"
-
 [build]
-  command = "npm run build"
-  publish = ".next"
+  command = "cd web-portfolio && npm install && npm run build"
+  publish = "web-portfolio/.next"
 
 [build.environment]
   NODE_VERSION = "20"
