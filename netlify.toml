@@ -1,9 +1,0 @@
-[build]
-  command = "cd web-portfolio && npm install && npm run build"
-  publish = "web-portfolio/.next"
-
-[build.environment]
-  NODE_VERSION = "20"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
